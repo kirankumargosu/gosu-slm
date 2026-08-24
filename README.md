@@ -22,7 +22,7 @@ exactly why it works — and what it would take to scale it to GPT.
 
 | Week | Topic | Status | Code |
 |------|-------|--------|------|
-| 1 | What Is a Language Model, Really? | ✅ Live | [weeks/week01/](week01/) |
+| 1 | What Is a Language Model, Really? | ✅ Live | [week01/](weeks/week01/) |
 | 2 | Tokenisation from Scratch | 🔜 Coming | — |
 | 3 | The Bigram Model | 🔜 Coming | — |
 | 4 | The Training Loop from Scratch | 🔜 Coming | — |
