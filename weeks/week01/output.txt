@@ -1,0 +1,73 @@
+(.slm-venv) kiran@gosulab:~/sw/gosu-slm$ python3 ./weeks/week01/bigram.py 
+==================================================
+  gosu-slm | Week 1 — Bigram Language Model
+==================================================
+Loading Shakespeare from: /home/kiran/sw/gosu-slm/data/shakespeare.txt
+First 100 characters:
+'First Citizen:\nBefore we proceed any further, hear me speak.\n\nAll:\nSpeak, speak.\n\nFirst Citizen:\nYou', ... total 1,115,394 characters
+Top 10 characters to index : {'\n': 0, ' ': 1, '!': 2, '$': 3, '&': 4, "'": 5, ',': 6, '-': 7, '.': 8, '3': 9}
+Top 10 index to character  : {0: '\n', 1: ' ', 2: '!', 3: '$', 4: '&', 5: "'", 6: ',', 7: '-', 8: '.', 9: '3'}
+
+Building bigram table...
+First 5 rows of counts:
+[[7224, 1, 1, 1, 1, 254, 1, 3, 1, 28, 1, 1, 1, 3833, 1670, 1146, 758, 385, 1207, 879, 1555, 2497, 186, 579, 965, 1400, 990, 1105, 947, 224, 483, 1672, 4143, 217, 180, 2730, 1, 724, 1, 169, 112, 113, 76, 39, 89, 47, 144, 89, 7, 18, 41, 106, 71, 78, 81, 4, 33, 189, 297, 24, 15, 158, 1, 67, 1], [3, 17, 1, 1, 4, 629, 1, 1, 1, 1, 3, 1, 1, 399, 501, 694, 172, 560, 190, 519, 481, 4080, 134, 220, 490, 568, 138, 439, 337, 9, 676, 447, 407, 7, 397, 437, 23, 308, 1, 13542, 8464, 5405, 5479, 2243, 6564, 3513, 11926, 7167, 377, 1593, 5174, 10787, 5177, 7411, 4491, 391, 2370, 12288, 23838, 1875, 884, 10547, 1, 5141, 11], [1230, 880, 1, 1, 1, 44, 1, 22, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Bigram table built: 65x65 = 4,225 probabilities
+Done.
+
+──────────────────────────────────────────────────
+MODEL STATS
+──────────────────────────────────────────────────
+  Training text   :  1,115,394 characters
+  Vocabulary size :         65 unique characters
+  Bigram table    : 65x65 = 4,225 probabilities
+  Model 'params'  : 4,225 (just a lookup table)
+  Characters      : "\n !$&',-.3:;?ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+
+──────────────────────────────────────────────────
+TOP 10 MOST LIKELY CHARACTER PAIRS
+──────────────────────────────────────────────────
+  'q'    → 'u'     0.905  ████████████████████████████████████
+  ':'    → '\n'    0.844  █████████████████████████████████
+  '.'    → '\n'    0.840  █████████████████████████████████
+  'v'    → 'e'     0.762  ██████████████████████████████
+  'Q'    → 'U'     0.733  █████████████████████████████
+  '?'    → '\n'    0.726  █████████████████████████████
+  ','    → ' '     0.708  ████████████████████████████
+  'z'    → 'e'     0.679  ███████████████████████████
+  '!'    → '\n'    0.550  █████████████████████
+  'Z'    → 'A'     0.544  █████████████████████
+
+──────────────────────────────────────────────────
+GENERATED TEXT (500 characters)
+──────────────────────────────────────────────────
+O e sit iced bor no the we athiseveereren ce calld cethe s hy.
+Prof f ctominthalilite y a aron hy'to sinar intoin wolll thin
+BAstom ts l th:
+KETharmamy.
+I ceilR:
+Ast cl;
+Yecoubeandenu her,
+HO:
+Whor yowou.
+AR:
+s thety, aly, s ndoay blladofird:
+Y:
+ARO:
+TARut ceston thexp t.
+Y ad,
+Mighanst il
+Thathe
+
+Winor amyout d tong wowns s! touer tofoompe bervemewht y wad s ord.
+S whisin qugot.
+Fe anthor; 'd ngeakess angburil-
+ARY ir se p spARDun donoty, urlforsoof prelace ff cot heakesfourd
+Chowerelake gin k 
+
+──────────────────────────────────────────────────
+Notice: the output looks like noise — but it's not random.
+It respects character frequencies learned from Shakespeare.
+Next week: tokenisation. The foundation everything else builds on.
+──────────────────────────────────────────────────
+
+(.slm-venv) kiran@gosulab:~/sw/gosu-slm$ 
