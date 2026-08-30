@@ -1,0 +1,44 @@
+(.slm-venv) kiran@gosulab:~/sw/gosu-slm$ python3 ./weeks/week02/tokeniser.py 
+=======================================================
+  gosu-slm | Week 2 — Tokenisation from Scratch
+=======================================================
+
+Loaded 1,115,394 characters
+
+Vocabulary(size=65, chars="\n !$&',-.3:;?ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz")
+Characters: "\n !$&',-.3:;?ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+
+Encoded text: 1,115,394 integers
+First 20 integers: [18, 47, 56, 57, 58, 1, 15, 47, 58, 47, 64, 43, 52, 10, 0, 14, 43, 44, 53, 56]
+First 20 characters: 'First Citizen:\nBefor'
+
+Round-trip check:
+  Original : 'To be, or not to be'
+  Encoded  : [32, 53, 1, 40, 43, 6, 1, 53, 56, 1, 52, 53, 58, 1, 58, 53, 1, 40, 43]
+  Decoded  : 'To be, or not to be'
+  ✓ Round-trip passed
+
+Train / validation split:
+  Train : 1,003,854 tokens (90.0%)
+  Val   : 111,540 tokens (10.0%)
+
+Sample batch (block_size=8, batch_size=2):
+
+  Sequence 1:
+    Input  integers : [47, 52, 45, 57, 10, 1, 50, 43]
+    Target integers : [52, 45, 57, 10, 1, 50, 43, 58]
+    Input  text     : 'ings: le'
+    Target text     : 'ngs: let'
+
+  Sequence 2:
+    Input  integers : [1, 45, 53, 42, 57, 1, 54, 56]
+    Target integers : [45, 53, 42, 57, 1, 54, 56, 43]
+    Input  text     : ' gods pr'
+    Target text     : 'gods pre'
+
+───────────────────────────────────────────────────────
+The entire training pipeline is in place.
+Next week: we build the first trainable model.
+───────────────────────────────────────────────────────
+
+(.slm-venv) kiran@gosulab:~/sw/gosu-slm$ 
