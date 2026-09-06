@@ -1,0 +1,55 @@
+(.slm-venv) kiran@gosulab:~/sw/gosu-slm$ python3 ./weeks/week03/bigram_model.py 
+=======================================================
+  gosu-slm | Week 3 — Trainable Bigram Model
+=======================================================
+
+Vocabulary size: 65
+Training tokens: 1,003,854
+
+Initial loss: 4.1752
+(Random baseline ≈ 4.1744 — log of vocab size)
+
+Training for 1000 steps...
+  Step    0 | loss 4.1744 | ███
+  Step  100 | loss 3.6482 | ████████
+  Step  200 | loss 3.0867 | ██████████████
+  Step  300 | loss 2.8918 | ████████████████
+  Step  400 | loss 2.7806 | █████████████████
+  Step  500 | loss 2.7118 | █████████████████
+  Step  600 | loss 2.6715 | ██████████████████
+  Step  700 | loss 2.6336 | ██████████████████
+  Step  800 | loss 2.6126 | ██████████████████
+  Step  900 | loss 2.6073 | ██████████████████
+  Step  999 | loss 2.5769 | ███████████████████
+
+Final loss: 2.6299
+Validation loss: 2.6128
+(Similar to train loss = good. Much higher = overfitting)
+
+───────────────────────────────────────────────────────
+GENERATED TEXT (300 characters):
+───────────────────────────────────────────────────────
+
+Uo, dur alILMJbre ulorwitu y lo obuld lfu:
+ghit ave VG arLI inf y aBket dOar an&!
+'dy he
+ARIs:
+Ayoure'sereverw ruBf beu the
+Chis t$hemart in !
+W&Ho b-lise t ankis jupethe he ckSulll;
+An AJy the sA! meth pJjBuseviQOf f d d VI LOLI:
+w;
+OL illast louto s sseneKIUzFhases,ABUS:
+II:
+FgQan ge
+
+To od
+LAnee
+
+───────────────────────────────────────────────────────
+The model is learning. Loss is falling.
+But it only looks ONE character back.
+Next week: the training loop — built properly, from scratch.
+───────────────────────────────────────────────────────
+
+(.slm-venv) kiran@gosulab:~/sw/gosu-slm$ 
