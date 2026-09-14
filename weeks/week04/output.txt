@@ -1,0 +1,100 @@
+(.slm-venv) kiran@gosulab:~/sw/gosu-slm$ python3 ./weeks/week04/trainer.py 
+============================================================
+  gosu-slm | Week 4 — Training Loop from Scratch
+============================================================
+
+Model: Embedding(65→32) + Linear(32→65)
+Total parameters: 4,225
+
+Training | lr=0.05 | steps=2000 | batch=64
+────────────────────────────────────────────────────────────
+  step    0 | train 4.1745 | val 4.1882 | ██
+  step  200 | train 3.9553 | val 3.7783 | ████
+  step  400 | train 3.5989 | val 3.5232 | ███████
+  step  600 | train 3.4179 | val 3.3250 | ████████
+  step  800 | train 3.2948 | val 3.1923 | █████████
+  step 1000 | train 3.1914 | val 3.2274 | ██████████
+  step 1200 | train 3.1029 | val 2.9661 | ███████████
+  step 1400 | train 2.9976 | val 2.9402 | ████████████
+  step 1600 | train 2.9653 | val 2.8987 | ████████████
+  step 1800 | train 2.9121 | val 2.9519 | ████████████
+  step 1999 | train 2.8768 | val 2.8420 | ████████████
+
+  train curve (each point = avg of recent steps):
+  4.175 ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+  4.109 ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+  3.924 ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+  3.856 ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+  3.808 ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+  3.659 ▓▓▓▓▓▓▓▓▓▓▓▓▓
+  3.553 ▓▓▓▓▓▓▓▓▓▓▓▓
+  3.620 ▓▓▓▓▓▓▓▓▓▓▓▓▓
+  3.559 ▓▓▓▓▓▓▓▓▓▓▓▓
+  3.578 ▓▓▓▓▓▓▓▓▓▓▓▓
+  3.508 ▓▓▓▓▓▓▓▓▓▓▓▓
+  3.407 ▓▓▓▓▓▓▓▓▓▓▓
+  3.291 ▓▓▓▓▓▓▓▓▓
+  3.416 ▓▓▓▓▓▓▓▓▓▓▓
+  3.206 ▓▓▓▓▓▓▓▓▓
+  3.577 ▓▓▓▓▓▓▓▓▓▓▓▓
+  3.079 ▓▓▓▓▓▓▓
+  3.472 ▓▓▓▓▓▓▓▓▓▓▓
+  3.337 ▓▓▓▓▓▓▓▓▓▓
+  3.129 ▓▓▓▓▓▓▓▓
+  3.372 ▓▓▓▓▓▓▓▓▓▓
+  3.052 ▓▓▓▓▓▓▓
+  3.216 ▓▓▓▓▓▓▓▓▓
+  3.358 ▓▓▓▓▓▓▓▓▓▓
+  3.492 ▓▓▓▓▓▓▓▓▓▓▓▓
+  3.223 ▓▓▓▓▓▓▓▓▓
+  2.934 ▓▓▓▓▓▓
+  3.063 ▓▓▓▓▓▓▓
+  3.275 ▓▓▓▓▓▓▓▓▓
+  3.112 ▓▓▓▓▓▓▓▓
+  3.248 ▓▓▓▓▓▓▓▓▓
+  3.038 ▓▓▓▓▓▓▓
+  2.866 ▓▓▓▓▓
+  2.948 ▓▓▓▓▓▓
+  2.941 ▓▓▓▓▓▓
+  3.302 ▓▓▓▓▓▓▓▓▓▓
+  2.896 ▓▓▓▓▓
+  3.010 ▓▓▓▓▓▓
+  3.036 ▓▓▓▓▓▓▓
+  2.862 ▓▓▓▓▓
+  2.869 ▓▓▓▓▓
+  3.117 ▓▓▓▓▓▓▓▓
+  2.815 ▓▓▓▓
+  3.145 ▓▓▓▓▓▓▓▓
+  2.981 ▓▓▓▓▓▓
+  2.987 ▓▓▓▓▓▓
+  2.870 ▓▓▓▓▓
+  2.836 ▓▓▓▓▓
+  2.953 ▓▓▓▓▓▓
+  2.763 ▓▓▓▓
+
+────────────────────────────────────────────────────────────
+GENERATED TEXT:
+────────────────────────────────────────────────────────────
+rVint wntt ma?rle t rSe eeu o$o tA ye DYante sSe f tNwlaoe-yRqIjFba,
+BheshoYotabyo
+3Oit s  tanninoR n&cees Eo?ron aM&ehLos 'oun o'MYP bgf SRd
+y cZ,eOlTex$-! bDseoe. obtheeV mFTcran
+
+Z lemdomr aI cwM
+ K! tSoIwX m hHn m,jplud b. m' andyUQY
+Qk 's n,ifewor ths;
+
+Qelyo algZvfole, gsp sto! ll.ae we an urD?ou!'RnondIY
+:bg&TZfotswe inemuof bRot tgraurofwe
+
+I iefahG
+Uthey:Iore- cd hsie m me
+Mjonun o k th r
+
+────────────────────────────────────────────────────────────
+The training loop is solid. Gradients flow. Loss falls.
+But we're still only looking at 1 character of context.
+Next week: sampling strategies — how we generate matters as much as how we train.
+────────────────────────────────────────────────────────────
+
+(.slm-venv) kiran@gosulab:~/sw/gosu-slm$ 
