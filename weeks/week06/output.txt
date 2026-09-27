@@ -1,0 +1,41 @@
+(.slm-venv) kiran@gosulab:~/sw/gosu-slm$ python3 ./weeks/week06/mlp_model.py 
+============================================================
+  gosu-slm | Week 6 — MLP Language Model
+============================================================
+
+Architecture: Embed(65x24) → Linear(192→128) → Tanh → Linear(128→65)
+Context window: 8 characters
+Total parameters: 34,649
+
+Training MLP | context=8 | hidden=128 | steps=3000
+────────────────────────────────────────────────────────────
+  step    0 | train 4.1966 | val 4.1882 | ██
+  step  500 | train 3.1814 | val 3.1740 | ██████████
+  step 1000 | train 2.8391 | val 2.7612 | █████████████
+  step 1500 | train 2.6456 | val 2.6154 | ██████████████
+  step 2000 | train 2.7676 | val 2.5916 | █████████████
+  step 2500 | train 2.3953 | val 2.4891 | ████████████████
+  step 2999 | train 2.3051 | val 2.4663 | █████████████████
+
+────────────────────────────────────────────────────────────
+GENERATED TEXT (temp=0.8, top-k=20):
+────────────────────────────────────────────────────────────
+TRUNETCO:
+HMNEI Irel yot rar trele, pnos tuke the karteor cou dery
+
+Iudre ma tare on.
+
+SE
+NONSACE:
+MOI I dud he howe youn gomld se bus tome too dut foule foord wlit migge
+Barl taris lavens ind auge,s the blonr af noo alm thit sor sif pinthe ig thet mou fome siorange, he why mepea this so ese of ant yot an hon cille
+The geavs po cor ile ond it of she se co dom gta fo tof cew ot ise so saf ot remp.
+
+
+────────────────────────────────────────────────────────────
+Context window: 8 chars → dramatically better output.
+The model can now see phrases, not just individual characters.
+Next week: attention — letting EVERY character see EVERY other.
+────────────────────────────────────────────────────────────
+
+(.slm-venv) kiran@gosulab:~/sw/gosu-slm$ 
