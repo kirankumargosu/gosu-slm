@@ -1,0 +1,57 @@
+(.slm-venv) kiran@gosulab:~/sw/gosu-slm$ python3 ./weeks/week07/attention.py 
+============================================================
+  gosu-slm | Week 7 — Self-Attention from Scratch
+============================================================
+
+Context: 16 chars | Embed: 32 | Head: 16
+
+Training for 2000 steps...
+────────────────────────────────────────────────────────────
+  step    0 | loss 4.1713 | ██
+  step  400 | loss 3.7846 | █████
+  step  800 | loss 3.7367 | █████
+  step 1200 | loss 3.3490 | ████████
+  step 1600 | loss 3.4312 | ███████
+  step 1999 | loss 3.4028 | ███████
+
+────────────────────────────────────────────────────────────
+ATTENTION VISUALISATION (last position → all positions):
+────────────────────────────────────────────────────────────
+  Attention from 'e' to:
+    pos  0 'S' 0.063 █
+    pos  1 'O' 0.062 █
+    pos  2 ':' 0.062 █
+    pos  3 '
+' 0.063 █
+    pos  4 'Y' 0.063 █
+    pos  5 'o' 0.062 █
+    pos  6 'u' 0.062 █
+    pos  7 ' ' 0.062 █
+    pos  8 'c' 0.062 █
+    pos  9 'r' 0.063 █
+    pos 10 'a' 0.063 █
+    pos 11 'm' 0.063 █
+    pos 12 ' ' 0.062 █
+    pos 13 't' 0.063 █
+    pos 14 'h' 0.062 █
+    pos 15 'e' 0.062 █
+
+────────────────────────────────────────────────────────────
+GENERATED TEXT:
+────────────────────────────────────────────────────────────
+   h  te mm t o  reeh o rsn      oao t  o e 
+erro
+i    et 
+o
+de il t e   a    sdtenin aesudt r h eda r
+duht  oshnh tmaeeeeu sse a r aheensehel n es n m    or nrotrhulolu     sdtahdllr sn
+ eseehhs lse  osir r h  et eeoittueet 
+ee   a theser o r nhs tnet  n  es a  r   i   nelt o  m tr re   sdas  ahteoietao ittdaed
+hi  ar r teas   oe i mteesrnttea hem
+
+────────────────────────────────────────────────────────────
+Single-head attention. Each position looks at all past positions.
+Next week: MULTI-head attention + the full Transformer block.
+────────────────────────────────────────────────────────────
+
+(.slm-venv) kiran@gosulab:~/sw/gosu-slm$ 
