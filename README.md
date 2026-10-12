@@ -29,7 +29,7 @@ exactly why it works — and what it would take to scale it to GPT.
 | 5 | Making It Generate — Sampling Strategies | ✅ Live | [week05](weeks/week05/) |
 | 6 | Neural Networks by Hand | ✅ Live | [week06](weeks/week06/) |
 | 7 | Attention — the Core Idea | ✅ Live | [week07](weeks/week07/) |
-| 8 | Building the Transformer Block | 🔜 Coming | — |
+| 8 | Building the Transformer Block | ✅ Live | [week08](weeks/week08/) |
 | 9 | The Full SLM — Putting It All Together | 🔜 Coming | — |
 | 10 | Scaling & Beyond — What's Next | 🔜 Coming | — |
 

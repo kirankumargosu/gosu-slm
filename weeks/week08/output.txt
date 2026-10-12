@@ -1,0 +1,39 @@
+(.slm-venv) kiran@gosulab:~/sw/gosu-slm$ python3 ./weeks/week08/transformer.py 
+============================================================
+  gosu-slm | Week 8 — Transformer Block
+============================================================
+
+Architecture: 2 blocks × (4 heads, dim=64, ff=128)
+Context: 32 chars | Approx params: 75,904
+
+Training for 2000 steps...
+────────────────────────────────────────────────────────────
+  step    0 | loss 4.2652 | █
+  step  400 | loss 3.9573 | ███
+  step  800 | loss 3.7449 | █████
+  step 1200 | loss 3.4889 | ███████
+  step 1600 | loss 3.8807 | ████
+  step 1999 | loss 3.6020 | ██████
+
+────────────────────────────────────────────────────────────
+GENERATED TEXT:
+────────────────────────────────────────────────────────────
+G i a  n h   dol eemo n oihndie  ol
+std inrhn  y ihnwoi aa   e ,i aha  nh n ntrcms nle e osa  h n
+ oo ssaat  , aa
+  eehr uf rdre  ya  nBe noit  m ee ,k 
+mtsyn s,eu gehtcdou  on  a  hw ss
+ f  aeem iaaseiy f:irr o
+ns syeb  aro am  lonmn fswt astaadteng  f  u     tas nol  a mootmoge tsh   neorrho h mt n   e,l, r o
+  sel trdrofo re:n  d  oroe   h, l owetn ohhitmnmesenomu    otdrsefe n  s   efoaoo eseer  
+n
+ htd,t  rHete e ohuee h,yratrh d
+tt 
+ rrrlh 
+
+────────────────────────────────────────────────────────────
+4 attention heads. 2 transformer blocks. Residual connections.
+Next week: assemble the complete SLM with full backprop.
+────────────────────────────────────────────────────────────
+
+(.slm-venv) kiran@gosulab:~/sw/gosu-slm$ 
